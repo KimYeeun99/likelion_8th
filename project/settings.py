@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'history.apps.HistoryConfig',
     'genre.apps.GenreConfig',
     'dictionary.apps.DictionaryConfig',
+    'image.apps.ImageConfig',
     'rest_framework',
 ]
 
