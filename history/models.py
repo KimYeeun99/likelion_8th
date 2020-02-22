@@ -9,3 +9,6 @@ class History(models.Model):
     class Meta:
         managed = False
         db_table = 'history'
+
+    def __str__(self):
+        return self.title_history

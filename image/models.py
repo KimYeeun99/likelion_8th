@@ -9,3 +9,6 @@ class Image(models.Model):
     class Meta:
         managed = False
         db_table = 'image'
+
+    def __str__(self):
+        return self.name_image

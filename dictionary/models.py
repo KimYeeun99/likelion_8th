@@ -10,3 +10,6 @@ class Dictionary(models.Model):
     class Meta:
         managed = False
         db_table = 'dictionary'
+
+    def __str__(self):
+        return self.title_dict

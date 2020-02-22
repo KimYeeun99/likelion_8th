@@ -9,3 +9,6 @@ class Genre(models.Model):
     class Meta:
         managed = False
         db_table = 'genre'
+
+    def __str__(self):
+        return self.title_genre
